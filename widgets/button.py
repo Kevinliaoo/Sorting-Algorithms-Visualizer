@@ -28,14 +28,14 @@ class Button:
 		text = Button.font.render (self.text, 1, WHITE)
 		window.blit (text, (self.x + self.width * .15, self.y + self.height * .2))
 
-	def onClick (self, x, y): 
+	def onClick (self, x, y, *args): 
 
 		if x > self.x and x < self.x + self.width: 
 
 			if y > self.y and y < self.y + self.height: 
 
 				try: 
-					return self.function()
+					return self.function(*args)
 
 				except: 
 					pass

@@ -54,8 +54,9 @@ class Slider:
 					self.scrollerPos = Slider.barLength + self.x
 					self.value = self.maxium
 				elif x < self.x: 
-					self.scrollerPos = self.x
-					self.value = 0
+					self.value = 1
+					percent = ((100 * self.value) // self.maxium) / 100
+					self.scrollerPos = Slider.barLength * percent + self.x
 
 				else: 
 					self.scrollerPos = x
