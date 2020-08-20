@@ -20,3 +20,5 @@ LBLUE = (66, 230, 245)
 
 ALGORITHMS = ('Insertion sort', 'Merge sort', 'Bubble sort')
 RUN_INSERTION = 'Insertion sort'
+RUN_MERGE = 'Merge sort'
+RUN_BUBBLE = 'Bubble sort'

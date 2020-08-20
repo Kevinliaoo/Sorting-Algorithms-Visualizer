@@ -33,6 +33,7 @@ def main (window):
 
 	run = True
 	while run: 
+		pygame.display.set_caption ("Sorting algorithms visualizator")
 		draw (window, buttons, bars)
 		algorithm = algo_select.text
 		speed = speedSlider.value
