@@ -18,7 +18,6 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 LBLUE = (66, 230, 245)
 
-ALGORITHMS = ('Insertion sort', 'Merge sort', 'Bubble sort')
+ALGORITHMS = ('Insertion sort', 'Bubble sort')
 RUN_INSERTION = 'Insertion sort'
-RUN_MERGE = 'Merge sort'
 RUN_BUBBLE = 'Bubble sort'

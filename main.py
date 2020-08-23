@@ -19,13 +19,11 @@ def main (window):
 	start_btn = button.Button (20, 525, BTN_WIDTH, BTN_HEIGHT, RED, "Start", startBtnClicked)
 	regenerate_btn = button.Button (140, 525, BTN_WIDTH2, BTN_HEIGHT, RED, "Regenerate", regenerateClicked)
 	algo_select = spinner.Spinner (10, 10, SPINNER_WIDTH, SPINNER_HEIGHT, GREEN, "Select sorting algorithm", ALGORITHMS)
-	speedSlider = slider.Slider (0, 20, 440, 545, 'Speed', 5)
-	sizeSlider = slider.Slider (0, 100, 520, 50, 'Size', 20)
+	sizeSlider = slider.Slider (0, 100, 480, 550, 'Size', 20)
 
 	buttons.add (start_btn)
 	buttons.add (regenerate_btn)
 	buttons.add (algo_select)
-	buttons.add (speedSlider)
 	buttons.add (sizeSlider)
 
 	size = sizeSlider.value
@@ -36,9 +34,7 @@ def main (window):
 		pygame.display.set_caption ("Sorting algorithms visualizator")
 		draw (window, buttons, bars)
 		algorithm = algo_select.text
-		speed = speedSlider.value
 		size = sizeSlider.value
-		speed = speedSlider.value
 
 		for event in pygame.event.get(): 
 

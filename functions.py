@@ -126,13 +126,6 @@ def startBtnClicked (bars, window, algorithm):
 		pygame.display.set_caption ('Running Insertion sort algorithm...')
 		insertionSort (bars, window)
 
-	elif algorithm == RUN_MERGE: 
-		pygame.display.set_caption ('Running Merge sort algorithm...')
-		indexes = [x for x in range(len(bars))]
-		print (bars)
-		mergeSort (bars, indexes, window)
-		print (bars)
-
 	elif algorithm == RUN_BUBBLE: 
 		pygame.display.set_caption ('Running Bubble sort algorithm...')
 		bubbleSort (window, bars)
@@ -144,7 +137,9 @@ def regenerateClicked(size):
 	"""
 	return generateBars (size)
 
+
 # ***** Sorting algorithms *****
+
 def insertionSort (bars, window): 
 	"""
 	Insertion sort algorithm. 
@@ -163,45 +158,6 @@ def insertionSort (bars, window):
 			bars[j + 1] = bars[j] 
 			j -= 1
 			bars[j + 1] = key 
-
-def mergeSort (bars, indexes, window): 
-
-	if len(bars) > 1: 
-		
-
-def mergeSortr(arr, indexes, window): 
-
-	if len(arr) > 1: 
-		mid = len(arr) // 2 
-		L = arr[:mid] 
-		R = arr[mid:] 
-		L_index = indexes[:mid]
-		R_index = indexes[mid:]
-
-		mergeSort(L, L_index, window)
-		mergeSort(R, R_index, window) 
-
-		i = j = k = 0
-
-		while i < len(L_index) and j < len(R_index): 
-			if L[i] < R[j]: 
-				arr[k] = L[i] 
-				i += 1
-			else: 
-				arr[k] = R[j] 
-				j += 1
- 
-			k += 1
-
-		while i < len(L): 
-			arr[k] = L[i] 
-			i += 1
-			k += 1
-
-		while j < len(R): 
-			arr[k] = R[j] 
-			j += 1
-			k += 1
 
 def bubbleSort (window, bars): 
 	"""
