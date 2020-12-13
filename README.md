@@ -27,5 +27,13 @@ python path.py
 <img src="https://github.com/Kevinliaoo/Sorting-Algorithms-Visualizer/blob/master/assets/Captura3.PNG">
 <br>
 
+## What I learned by doing this project: 
+
+* Different types of sorting algorithms
+
+* Comparing time complexity of each of the algorithms
+
+* Designing a GUI using pygame 
+
 ## Author 
 Kevin Liao - @kevinliaoo
