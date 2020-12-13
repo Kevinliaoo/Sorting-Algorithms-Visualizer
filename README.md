@@ -1,5 +1,5 @@
 # Sorting algorithms visualizer
-This program is a sorting algorithm visualizer that is able to run **insertion sort** and **bubble sort**. <br>
+This program is a sorting algorithm visualizer that is able to run **insertion sort** and **bubble sort**. <br><br>
 ![img](https://github.com/Kevinliaoo/Sorting-Algorithms-Visualizer/blob/master/assets/Captura1.PNG)
 <br>
 
@@ -22,9 +22,10 @@ python path.py
 * Click *Regenerate* button if you are not satisfied with the set of bars that was generated to randomly generate a new set of bars.
 * Finally, click *Start* button to start running and visualize the sorting algorithm. 
 <br>
-![img](https://github.com/Kevinliaoo/Sorting-Algorithms-Visualizer/blob/master/assets/Captura2.PNG)
+<img src="https://github.com/Kevinliaoo/Sorting-Algorithms-Visualizer/blob/master/assets/Captura2.PNG">
 <br>
-![img](https://github.com/Kevinliaoo/Sorting-Algorithms-Visualizer/blob/master/assets/Captura3.PNG)
+<img src="https://github.com/Kevinliaoo/Sorting-Algorithms-Visualizer/blob/master/assets/Captura3.PNG">
+<br>
 
 ## Author 
 Kevin Liao - @kevinliaoo
